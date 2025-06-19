@@ -1,11 +1,13 @@
 include:
-  - board: nice_nano
+  - board: pro_micro_nrf52840
     shield: charrys_left
     artifact-name: Charrys_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     extra_configs:
       - /shields/charrys/charrys_left.conf
 
-  - board: nice_nano
+  - board: pro_micro_nrf52840
     shield: charrys_right
     artifact-name: Charrys_right
     extra_configs:
