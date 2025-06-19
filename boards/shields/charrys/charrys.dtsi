@@ -5,7 +5,11 @@
 / {
 
     model = "Charrys";
-    compatible = "nice,nano";
+
+      aliases {
+          pro_micro = &gpio0;
+          pro_micro = &gpio1;
+      };
 
     chosen {
         zmk,kscan = &kscan0;

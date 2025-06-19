@@ -1,9 +1,0 @@
-file_format: "1"
-id: charrys
-name: charrys
-type: shield
-requires: [pro_micro]
-studio: true
-siblings:
-  - charrys_left
-  - charrys_right
