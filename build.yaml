@@ -1,5 +1,5 @@
 include:
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: charrys_left
     artifact-name: Charrys_left
     snippet: studio-rpc-usb-uart
@@ -7,7 +7,7 @@ include:
     extra_configs:
       - /shields/charrys/charrys_left.conf
 
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: charrys_right
     artifact-name: Charrys_right
     extra_configs:
