@@ -1,11 +1,11 @@
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: charrys_left
     artifact-name: Charrys_left
     extra_configs:
       - /shields/charrys/charrys_left.conf
 
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: charrys_right
     artifact-name: Charrys_right
     extra_configs:
