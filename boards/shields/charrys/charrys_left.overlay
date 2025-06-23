@@ -1,0 +1,7 @@
+#include "charrys.dtsi"
+   
+
+      &ws2812_0 {
+          chain-length = <21>;
+          spi-max-frequency = <8000000>; // Для SPI-эмуляции
+      };

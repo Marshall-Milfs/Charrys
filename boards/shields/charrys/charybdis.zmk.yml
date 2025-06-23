@@ -1,0 +1,6 @@
+file_format: "1"
+id: charybdis
+name: Charybdis
+type: shield
+requires: [pro_micro]
+studio: true

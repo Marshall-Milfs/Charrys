@@ -1,0 +1,12 @@
+#include "charrys.dtsi"
+
+   &default_transform {
+       col-offset = <7>;
+
+   };
+
+    &ws2812_0 {
+    chain-length = <20>; // Можно дублировать здесь
+    spi-max-frequency = <8000000>; // Для SPI-эмуляции
+};
+
